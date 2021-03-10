@@ -20,12 +20,12 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="CSCI 736 Neural Network [toc] Paper Time Line Write 1 and 5    Paper Content Time Schedule          Paper Math Equation $$ p_{end,j}&#x3D; , j {n+1, n+2, n+3 2 n}\ \[\begin{aligned}  &amp;input&#x3D;[q_{1},q_{2">
+  <meta name="description" content="CSCI 736 Neural Network [toc] Paper Time Line Write 1 and 5    Paper Content Time Schedule          Paper Math Equation $$ \[\begin{aligned} &amp;p_{end,j}&#x3D;\dfrac{e^{z_{j}}}{\sum{j&#x3D;n+1}^{2n} e^{z_{j}}">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CSCI 736 Neural Network">
 <meta property="og:url" content="http://example.com/2021/03/10/CSCI-736-Neural-Network/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="CSCI 736 Neural Network [toc] Paper Time Line Write 1 and 5    Paper Content Time Schedule          Paper Math Equation $$ p_{end,j}&#x3D; , j {n+1, n+2, n+3 2 n}\ \[\begin{aligned}  &amp;input&#x3D;[q_{1},q_{2">
+<meta property="og:description" content="CSCI 736 Neural Network [toc] Paper Time Line Write 1 and 5    Paper Content Time Schedule          Paper Math Equation $$ \[\begin{aligned} &amp;p_{end,j}&#x3D;\dfrac{e^{z_{j}}}{\sum{j&#x3D;n+1}^{2n} e^{z_{j}}">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2021/03/10/CSCI-736-Neural-Network/5871614469525_.pic_hd.jpg">
 <meta property="og:image" content="http://example.com/2021/03/10/CSCI-736-Neural-Network/5991614469878_.pic_hd.jpg">
@@ -45,7 +45,7 @@
 <meta property="og:image" content="http://example.com/2021/03/10/CSCI-736-Neural-Network/image-20210309225757217.png">
 <meta property="og:image" content="http://example.com/2021/03/10/CSCI-736-Neural-Network/image-20210310002011618.png">
 <meta property="article:published_time" content="2021-03-10T06:39:36.000Z">
-<meta property="article:modified_time" content="2021-03-10T07:31:16.558Z">
+<meta property="article:modified_time" content="2021-03-10T07:36:48.715Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2021/03/10/CSCI-736-Neural-Network/5871614469525_.pic_hd.jpg">
@@ -196,7 +196,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-03-10 01:39:36 / Modified: 02:31:16" itemprop="dateCreated datePublished" datetime="2021-03-10T01:39:36-05:00">2021-03-10</time>
+              <time title="Created: 2021-03-10 01:39:36 / Modified: 02:36:48" itemprop="dateCreated datePublished" datetime="2021-03-10T01:39:36-05:00">2021-03-10</time>
             </span>
 
           
@@ -229,9 +229,9 @@
 </tbody>
 </table>
 <h2 id="paper-math-equation">Paper Math Equation</h2>
-$$ p_{end,j}= , j {n+1, n+2, n+3 2 n}\
+$$
 <span class="math display">\[\begin{aligned}
-
+&amp;p_{end,j}=\dfrac{e^{z_{j}}}{\sum{j=n+1}^{2n} e^{z_{j}}} , j \in\{n+1, n+2, n+3 \ldots 2 n\}\\
 &amp;input=[q_{1},q_{2},q_{3},\cdots, q_{N}],[d_{1}, d_{2}, d_{3}, \cdots,d_{M}], \text{(N,M : the number of tokens)}\\
 &amp;outputs=[index\ \ of\ \ max(p_{i}),index\ \ of\ \  max(p_{j}))]\\
 
